@@ -11,7 +11,7 @@ def partition_image(
     file: Optional[bytes] = None,
     include_page_breaks: bool = False,
     ocr_languages: str = "eng",
-    strategy: str = "auto",
+    strategy: str = "hi_res",
     **kwargs,
 ) -> List[Element]:
     """Parses an image into a list of interpreted elements.
@@ -30,8 +30,7 @@ def partition_image(
         "ocr_only". When using the "hi_res" strategy, the function uses a layout detection
         model if to identify document elements. When using the "ocr_only" strategy,
         partition_image simply extracts the text from the document using OCR and processes it.
-        The default strategy `auto` will determine when a image can be extracted using
-        `ocr_only` mode, otherwise it will fall back to `hi_res`.
+        The default strategy is `hi_res`.
     """
     exactly_one(filename=filename, file=file)
 

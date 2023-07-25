@@ -159,3 +159,12 @@ def test_partition_image_raises_with_bad_strategy():
     filename = os.path.join(DIRECTORY, "..", "..", "example-docs", "english-and-korean.png")
     with pytest.raises(ValueError):
         image.partition_image(filename=filename, strategy="fakeroo")
+
+
+def test_partition_image_default_strategy_hi_res():
+    filename = os.path.join(DIRECTORY, "..", "..", "example-docs", "layout-parser-paper-fast.jpg")
+    with open(filename, "rb") as f:
+        elements = image.partition_image(file=f)
+
+    first_line = "LayoutParser: A Unified Toolkit for Deep Learning Based Document Image Analysis"
+    assert elements[0].text == first_line
