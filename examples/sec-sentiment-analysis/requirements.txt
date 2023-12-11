@@ -213,7 +213,7 @@ pure-eval==0.2.2
     # via stack-data
 pycparser==2.21
     # via cffi
-pygments==2.13.0
+pygments==2.15.0
     # via
     #   ipython
     #   jupyter-console
@@ -287,7 +287,7 @@ torchaudio==0.12.1
     # via -r requirements.in
 torchvision==0.13.1
     # via -r requirements.in
-tornado==6.2
+tornado==6.3.3
     # via
     #   ipykernel
     #   jupyter-client
@@ -340,3 +340,4 @@ zipp==3.10.0
     # via
     #   importlib-metadata
     #   importlib-resources
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
