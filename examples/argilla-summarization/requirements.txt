@@ -525,7 +525,7 @@ traitlets==5.9.0
     #   nbformat
     #   notebook
     #   qtconsole
-transformers==4.26.1
+transformers==4.36.0
     # via -r requirements.in
 typing-extensions==4.5.0
     # via
