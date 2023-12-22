@@ -187,7 +187,7 @@ torchvision==0.15.1
 tornado==6.2
 tqdm==4.65.0
 traitlets==5.9.0
-transformers==4.28.0
+transformers==4.36.0
 typing_extensions==4.5.0
 umap-learn==0.5.3
 unstructured==0.5.12
