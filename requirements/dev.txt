@@ -352,7 +352,7 @@ tomli==2.0.1
     #   jupyterlab
     #   pip-tools
     #   pyproject-hooks
-tornado==6.3.2
+tornado==6.3.3
     # via
     #   ipykernel
     #   jupyter-client
@@ -417,3 +417,4 @@ zipp==3.16.2
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
