@@ -40,7 +40,7 @@ charset-normalizer==3.2.0
     #   -c requirements/base.txt
     #   aiohttp
     #   requests
-cryptography==41.0.2
+cryptography==42.0.0
     # via
     #   -c requirements/base.txt
     #   azure-identity
