@@ -5,8 +5,8 @@
 #    pip-compile requirements/ingest-azure.in
 #
 adlfs==2023.4.0
-    # via -r requirements/ingest-azure.in
-aiohttp==3.8.5
+    # via -r ingest-azure.in
+aiohttp==3.9.2
     # via adlfs
 aiosignal==1.3.1
     # via aiohttp
@@ -27,22 +27,21 @@ azure-storage-blob==12.17.0
     # via adlfs
 certifi==2023.7.22
     # via
-    #   -c requirements/base.txt
-    #   -c requirements/constraints.in
+    #   -c base.txt
+    #   -c constraints.in
     #   requests
 cffi==1.15.1
     # via
-    #   -c requirements/base.txt
+    #   -c base.txt
     #   azure-datalake-store
     #   cryptography
 charset-normalizer==3.2.0
     # via
-    #   -c requirements/base.txt
-    #   aiohttp
+    #   -c base.txt
     #   requests
 cryptography==41.0.2
     # via
-    #   -c requirements/base.txt
+    #   -c base.txt
     #   azure-identity
     #   azure-storage-blob
     #   msal
@@ -53,11 +52,11 @@ frozenlist==1.4.0
     #   aiosignal
 fsspec==2023.6.0
     # via
-    #   -r requirements/ingest-azure.in
+    #   -r ingest-azure.in
     #   adlfs
 idna==3.4
     # via
-    #   -c requirements/base.txt
+    #   -c base.txt
     #   requests
     #   yarl
 isodate==0.6.1
@@ -77,19 +76,21 @@ portalocker==2.7.0
     # via msal-extensions
 pycparser==2.21
     # via
-    #   -c requirements/base.txt
+    #   -c base.txt
     #   cffi
 pyjwt[crypto]==2.8.0
-    # via msal
+    # via
+    #   msal
+    #   pyjwt
 requests==2.31.0
     # via
-    #   -c requirements/base.txt
+    #   -c base.txt
     #   azure-core
     #   azure-datalake-store
     #   msal
 six==1.16.0
     # via
-    #   -c requirements/base.txt
+    #   -c base.txt
     #   azure-core
     #   azure-identity
     #   isodate
@@ -99,8 +100,8 @@ typing-extensions==4.7.1
     #   azure-storage-blob
 urllib3==1.26.16
     # via
-    #   -c requirements/base.txt
-    #   -c requirements/constraints.in
+    #   -c base.txt
+    #   -c constraints.in
     #   requests
 yarl==1.9.2
     # via aiohttp
