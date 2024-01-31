@@ -24,7 +24,7 @@ coloredlogs==15.0.1
     # via onnxruntime
 contourpy==1.1.0
     # via matplotlib
-cryptography==41.0.2
+cryptography==42.0.2
     # via
     #   -c requirements/base.txt
     #   pdfminer-six
