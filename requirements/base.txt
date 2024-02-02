@@ -53,7 +53,7 @@ pdf2image==1.16.3
     # via -r requirements/base.in
 pdfminer-six==20221105
     # via -r requirements/base.in
-pillow==10.0.0
+pillow==10.2.0
     # via
     #   -r requirements/base.in
     #   pdf2image
