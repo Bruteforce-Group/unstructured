@@ -148,7 +148,7 @@ python-dateutil==2.8.2
     #   -c requirements/base.txt
     #   matplotlib
     #   pandas
-python-multipart==0.0.6
+python-multipart==0.0.7
     # via unstructured-inference
 pytz==2023.3
     # via
