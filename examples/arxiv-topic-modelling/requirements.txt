@@ -36,7 +36,7 @@ detectron2==0.6
 effdet==0.3.0
 et-xmlfile==1.1.0
 executing==1.2.0
-fastapi==0.95.1
+fastapi==0.109.1
 fastjsonschema==2.16.3
 feedparser==6.0.10
 filelock==3.11.0
