@@ -109,7 +109,7 @@ et-xmlfile==1.1.0
     # via openpyxl
 executing==1.2.0
     # via stack-data
-fastapi==0.88.0
+fastapi==0.109.1
     # via argilla
 fastjsonschema==2.16.3
     # via nbformat
