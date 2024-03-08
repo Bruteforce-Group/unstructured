@@ -89,7 +89,7 @@ omegaconf==2.3.0
     # via effdet
 onnxruntime==1.15.1
     # via unstructured-inference
-opencv-python==4.8.0.74
+opencv-python==4.8.1.78
     # via
     #   layoutparser
     #   unstructured-inference
