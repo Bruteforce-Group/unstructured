@@ -114,7 +114,7 @@ pdfminer-six==20221105
     #   pdfplumber
 pdfplumber==0.10.1
     # via layoutparser
-pillow==10.0.0
+pillow==10.3.0
     # via
     #   -c requirements/base.txt
     #   layoutparser
