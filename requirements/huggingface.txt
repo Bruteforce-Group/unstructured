@@ -26,7 +26,7 @@ fsspec==2023.6.0
     # via huggingface-hub
 huggingface-hub==0.16.4
     # via transformers
-idna==3.4
+idna==3.7
     # via
     #   -c requirements/base.txt
     #   requests
