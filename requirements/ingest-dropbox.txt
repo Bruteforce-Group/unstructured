@@ -21,7 +21,7 @@ fsspec==2023.6.0
     # via
     #   -r requirements/ingest-dropbox.in
     #   dropboxdrivefs
-idna==3.4
+idna==3.7
     # via
     #   -c requirements/base.txt
     #   requests
