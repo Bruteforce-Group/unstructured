@@ -22,7 +22,7 @@ frozenlist==1.4.0
     # via
     #   aiohttp
     #   aiosignal
-idna==3.4
+idna==3.7
     # via
     #   -c requirements/base.txt
     #   yarl
