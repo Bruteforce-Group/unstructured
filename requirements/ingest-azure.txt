@@ -55,7 +55,7 @@ fsspec==2023.6.0
     # via
     #   -r requirements/ingest-azure.in
     #   adlfs
-idna==3.4
+idna==3.7
     # via
     #   -c requirements/base.txt
     #   requests
