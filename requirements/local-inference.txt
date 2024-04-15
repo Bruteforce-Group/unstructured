@@ -50,7 +50,7 @@ huggingface-hub==0.16.4
     #   unstructured-inference
 humanfriendly==10.0
     # via coloredlogs
-idna==3.4
+idna==3.7
     # via
     #   -c requirements/base.txt
     #   requests
@@ -206,7 +206,7 @@ tqdm==4.65.0
     #   huggingface-hub
     #   iopath
     #   transformers
-transformers==4.31.0
+transformers==4.38.0
     # via unstructured-inference
 typing-extensions==4.7.1
     # via
