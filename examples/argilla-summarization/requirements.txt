@@ -6,7 +6,7 @@
 #
 aiofiles==22.1.0
     # via argilla
-aiohttp==3.8.4
+aiohttp==3.9.4
     # via
     #   datasets
     #   fsspec
@@ -490,7 +490,7 @@ tinycss2==1.2.1
     # via nbconvert
 tokenizers==0.13.2
     # via transformers
-torch==1.13.1
+torch==2.2.0
     # via -r requirements.in
 tornado==6.2
     # via
