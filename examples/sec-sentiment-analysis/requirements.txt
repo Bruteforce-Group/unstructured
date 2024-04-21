@@ -278,7 +278,7 @@ tinycss2==1.2.1
     # via nbconvert
 tokenizers==0.13.1
     # via transformers
-torch==1.13.1
+torch==2.2.0
     # via
     #   -r requirements.in
     #   torchaudio
