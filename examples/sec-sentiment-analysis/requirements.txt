@@ -295,7 +295,7 @@ tornado==6.2
     #   nbclassic
     #   notebook
     #   terminado
-tqdm==4.64.1
+tqdm==4.66.3
     # via
     #   huggingface-hub
     #   nltk
