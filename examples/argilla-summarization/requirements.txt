@@ -166,7 +166,7 @@ huggingface-hub==0.20.2
     #   datasets
     #   tokenizers
     #   transformers
-idna==3.6
+idna==3.7
     # via
     #   anyio
     #   httpx
@@ -548,7 +548,7 @@ tornado==6.4
     #   jupyterlab
     #   notebook
     #   terminado
-tqdm==4.66.1
+tqdm==4.66.3
     # via
     #   argilla
     #   datasets
