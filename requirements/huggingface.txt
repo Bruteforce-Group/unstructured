@@ -69,7 +69,7 @@ regex==2024.5.10
     #   -c ./base.txt
     #   sacremoses
     #   transformers
-requests==2.31.0
+requests==2.32.0
     # via
     #   -c ./base.txt
     #   huggingface-hub
