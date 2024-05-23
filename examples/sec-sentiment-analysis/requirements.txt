@@ -247,7 +247,7 @@ regex==2022.9.13
     # via
     #   nltk
     #   transformers
-requests==2.28.1
+requests==2.32.0
     # via
     #   -r requirements.in
     #   huggingface-hub
