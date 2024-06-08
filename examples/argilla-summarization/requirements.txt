@@ -90,7 +90,7 @@ comm==0.2.1
     # via
     #   ipykernel
     #   ipywidgets
-cryptography==41.0.2
+cryptography==42.0.8
     # via
     #   -r requirements.in
     #   python-jose
@@ -242,7 +242,7 @@ jupyter-events==0.9.0
     # via jupyter-server
 jupyter-lsp==2.2.1
     # via jupyterlab
-jupyter-server==2.12.2
+jupyter-server==2.14.1
     # via
     #   jupyter-lsp
     #   jupyterlab
@@ -540,7 +540,7 @@ tomli==2.0.1
     # via jupyterlab
 torch==2.1.2
     # via -r requirements.in
-tornado==6.4
+tornado==6.4.1
     # via
     #   ipykernel
     #   jupyter-client
