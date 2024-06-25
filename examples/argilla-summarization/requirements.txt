@@ -17,7 +17,7 @@ aiosqlite==0.19.0
     # via argilla
 alembic==1.9.4
     # via argilla
-anyio==4.2.0
+anyio==4.4.0
     # via
     #   httpcore
     #   jupyter-server
