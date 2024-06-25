@@ -4,7 +4,7 @@
 #
 #    pip-compile ./dev.in
 #
-anyio==3.7.1
+anyio==4.4.0
     # via
     #   -c ././deps/constraints.txt
     #   httpx
