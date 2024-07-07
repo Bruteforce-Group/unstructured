@@ -63,7 +63,7 @@ brotli==1.1.0
     # via brotli-asgi
 brotli-asgi==1.2.0
     # via argilla
-certifi==2023.11.17
+certifi==2024.7.4
     # via
     #   elastic-transport
     #   httpcore
