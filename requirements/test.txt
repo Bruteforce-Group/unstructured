@@ -158,3 +158,4 @@ wrapt==1.16.0
     #   vcrpy
 yarl==1.9.4
     # via vcrpy
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
