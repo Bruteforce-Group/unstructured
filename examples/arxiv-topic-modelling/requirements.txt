@@ -206,3 +206,4 @@ wrapt==1.14.1
 XlsxWriter==3.1.0
 yacs==0.1.8
 zipp==3.15.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
