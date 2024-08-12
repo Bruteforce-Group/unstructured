@@ -50,7 +50,7 @@ mypy-extensions==1.0.0
     # via
     #   typing-inspect
     #   unstructured-client
-nltk==3.8.1
+nltk==3.8.2
     # via -r ./base.in
 numpy==1.26.4
     # via -r ./base.in
