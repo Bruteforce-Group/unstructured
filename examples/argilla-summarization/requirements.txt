@@ -6,7 +6,7 @@
 #
 aiofiles==22.1.0
     # via argilla
-aiohttp==3.9.1
+aiohttp==3.10.2
     # via
     #   datasets
     #   elasticsearch8
@@ -317,7 +317,7 @@ nest-asyncio==1.5.8
     # via ipykernel
 networkx==3.2.1
     # via torch
-nltk==3.8.1
+nltk==3.8.2
     # via unstructured
 notebook==7.0.6
     # via jupyter
