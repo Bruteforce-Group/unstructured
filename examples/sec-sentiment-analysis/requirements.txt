@@ -162,7 +162,7 @@ nest-asyncio==1.5.6
     #   nbclassic
     #   nbclient
     #   notebook
-nltk==3.7
+nltk==3.8.2
     # via unstructured
 notebook==6.5.1
     # via jupyter
