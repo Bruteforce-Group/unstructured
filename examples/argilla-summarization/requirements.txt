@@ -90,7 +90,7 @@ comm==0.2.1
     # via
     #   ipykernel
     #   ipywidgets
-cryptography==41.0.2
+cryptography==43.0.1
     # via
     #   -r requirements.in
     #   python-jose
