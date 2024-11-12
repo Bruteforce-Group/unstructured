@@ -148,3 +148,4 @@ urllib3==1.26.20
     #   unstructured-client
 wrapt==1.16.0
     # via -r ./base.in
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
