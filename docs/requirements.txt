@@ -123,3 +123,4 @@ urllib3==1.26.18
     #   requests
 zipp==3.17.0
     # via importlib-metadata
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
