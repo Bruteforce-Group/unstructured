@@ -88,7 +88,7 @@ psutil==6.0.0
     # via -r ./base.in
 pycparser==2.22
     # via cffi
-pypdf==5.0.0
+pypdf==6.6.0
     # via unstructured-client
 python-dateutil==2.9.0.post0
     # via unstructured-client
@@ -141,7 +141,7 @@ typing-inspect==0.9.0
     #   unstructured-client
 unstructured-client==0.25.9
     # via -r ./base.in
-urllib3==1.26.20
+urllib3==2.6.3
     # via
     #   -c ././deps/constraints.txt
     #   requests
