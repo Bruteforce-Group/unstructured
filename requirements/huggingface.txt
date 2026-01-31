@@ -76,7 +76,7 @@ sacremoses==0.1.1
     # via -r ./huggingface.in
 safetensors==0.4.5
     # via transformers
-sentencepiece==0.2.0
+sentencepiece==0.2.1
     # via -r ./huggingface.in
 six==1.16.0
     # via
